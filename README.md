@@ -9,3 +9,7 @@ KursRepository zu Kurs SQL - Datenbanksprache und Fortgeschrittene Techniken der
 
 # DB Objekte
 ## Proc, F() und Views
+
+# temporäre Tabellen
+
+# Maxdop
