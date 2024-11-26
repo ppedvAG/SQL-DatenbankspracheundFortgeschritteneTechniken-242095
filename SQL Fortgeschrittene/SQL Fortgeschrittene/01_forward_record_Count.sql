@@ -16,7 +16,7 @@ dbcc showcontig('ku')--42186
 select * from sys.dm_db_index_physical_stats
 		(db_id(), object_id('ku'),null,null,'detailed')
 
---forward_record_count immer NUll oder 0 sein
+--forwarded_record_count immer NUll oder 0 sein
 
 -- der forwardRecordCount sollte immer NULL oder 0 sein
 
@@ -25,3 +25,7 @@ select * from sys.dm_db_index_physical_stats
 --sond forwardrecordcounts vorhanden--> CL IX erstellen
 --und falls der nicht erwünscht ist wieder löschen
 :-)
+
+--TRIGGER: INS UP DEL   DML
+
+--DDL: CR ALTER DROP

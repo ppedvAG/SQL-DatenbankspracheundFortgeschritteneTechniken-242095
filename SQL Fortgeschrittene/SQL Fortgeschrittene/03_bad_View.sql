@@ -62,7 +62,7 @@ select 30, 300
 
 select * from slf
 
-create view vdemo with schemabinding--du musts exakt arbeiten
+create view vdemo with schemabinding--du musst exakt arbeiten
 as
 select id, stadt , land from dbo.slf
 
