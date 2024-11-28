@@ -70,6 +70,24 @@
           <AssociatedConnUserName />
           <FullPath>04_ Pläne.sql</FullPath>
         </FileNode>
+        <FileNode Name="0400 QueryStore.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>0400 QueryStore.sql</FullPath>
+        </FileNode>
+        <FileNode Name="0401_QueryStore per TSQL.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>0401_QueryStore per TSQL.sql</FullPath>
+        </FileNode>
+        <FileNode Name="0402_QueryStore_Hints.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>0402_QueryStore_Hints.sql</FullPath>
+        </FileNode>
         <FileNode Name="05_MAXDOP.sql">
           <AssociatedConnectionMoniker />
           <AssociatedConnSrvName />
@@ -82,17 +100,95 @@
           <AssociatedConnUserName />
           <FullPath>06_temporäre Tabellen.sql</FullPath>
         </FileNode>
-        <FileNode Name="1001_DDL Trigger.sql">
+        <FileNode Name="0602_TSQL_Snapshotisolation.sql">
           <AssociatedConnectionMoniker />
           <AssociatedConnSrvName />
           <AssociatedConnUserName />
-          <FullPath>1001_DDL Trigger.sql</FullPath>
+          <FullPath>0602_TSQL_Snapshotisolation.sql</FullPath>
         </FileNode>
-        <FileNode Name="12_Logischer Fluss.sql">
+        <FileNode Name="0700_TemporalTables_1_Aktivieren.sql">
           <AssociatedConnectionMoniker />
           <AssociatedConnSrvName />
           <AssociatedConnUserName />
-          <FullPath>12_Logischer Fluss.sql</FullPath>
+          <FullPath>0700_TemporalTables_1_Aktivieren.sql</FullPath>
+        </FileNode>
+        <FileNode Name="0701_TemporalTables_2_Demo.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>0701_TemporalTables_2_Demo.sql</FullPath>
+        </FileNode>
+        <FileNode Name="08_DDL Trigger.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>08_DDL Trigger.sql</FullPath>
+        </FileNode>
+        <FileNode Name="0800_GRAPH.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>0800_GRAPH.sql</FullPath>
+        </FileNode>
+        <FileNode Name="09_Logischer Fluss.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>09_Logischer Fluss.sql</FullPath>
+        </FileNode>
+        <FileNode Name="0900_TabVariablen.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>0900_TabVariablen.sql</FullPath>
+        </FileNode>
+        <FileNode Name="10_Indizes.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>10_Indizes.sql</FullPath>
+        </FileNode>
+        <FileNode Name="11_Columnstore_realtime_inMemory.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>11_Columnstore_realtime_inMemory.sql</FullPath>
+        </FileNode>
+        <FileNode Name="15_Einfache Transactions.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>15_Einfache Transactions.sql</FullPath>
+        </FileNode>
+        <FileNode Name="15_Verschachtelte Transactions.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>15_Verschachtelte Transactions.sql</FullPath>
+        </FileNode>
+        <FileNode Name="16_CTE.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:BIGBEN:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>BIGBEN</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>16_CTE.sql</FullPath>
+        </FileNode>
+        <FileNode Name="17_Except_intersect.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:BIGBEN:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>BIGBEN</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>17_Except_intersect.sql</FullPath>
+        </FileNode>
+        <FileNode Name="20_Tabellenvariable als TypeE.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>20_Tabellenvariable als TypeE.sql</FullPath>
+        </FileNode>
+        <FileNode Name="30_Window Function.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>30_Window Function.sql</FullPath>
         </FileNode>
         <FileNode Name="Recap_Tag1.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:BIGBEN:True</AssociatedConnectionMoniker>
@@ -118,10 +214,29 @@
           <AssociatedConnUserName />
           <FullPath>Z_Spieltabelle.sql</FullPath>
         </FileNode>
+        <FileNode Name="Z_SQL Server 2022 Diagnostic Information Queries.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Z_SQL Server 2022 Diagnostic Information Queries.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Z_tabelle für Columnstore.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Z_tabelle für Columnstore.sql</FullPath>
+        </FileNode>
       </Items>
     </LogicalFolder>
     <LogicalFolder Name="Sonstiges" Type="3" Sorted="true">
-      <Items />
+      <Items>
+        <FileNode Name="IM.zip">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>IM.zip</FullPath>
+        </FileNode>
+      </Items>
     </LogicalFolder>
   </Items>
 </SqlWorkbenchSqlProject>
