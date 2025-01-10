@@ -6,7 +6,7 @@
 --je nach ABfrage (where Bedingung) kann ein anderer Plan besser sein
 --eine Adhoc Abfrage kann sich anpassen
 --aber die Prozedur verwendet immer den selben Plan...
---unsererm Fall 1 Mio Seiten, obwohl die Tabelle nur 56000 besitzt
+--in unsererm Fall 1 Mio Seiten, obwohl die Tabelle nur 56000 besitzt
 
 
 
